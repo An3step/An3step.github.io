@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    background-image: url("cave2.png");
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 70px;
+    color: #fff;
+    padding-bottom: 500px;
+    unicode-bidi: isolate;
+    margin:10px;
+}
+.logo{
+    margin-right: 69px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+.menu li{
+    margin-right: 40px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.p{
+    margin: 0;
+}
+.tytle {
+    font-size: 40px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.navigation{
+    display: flex;
+    align-items: center ;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
