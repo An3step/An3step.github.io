@@ -42,6 +42,7 @@ ul,li{
 }
 .header{
     background: url('Q/Cave_background.png');
+    min-width: 1900px;
     padding-top: 57px;
     color: #fff;
     padding-bottom: 322px;
