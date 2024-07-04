@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    background-image: url("cave2.png");
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 25px;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.Ilya li{
+    display: revert;
+}
+.Ilya ul{
+    padding: revert;
+}
+.Nikolay li{
+    display: revert;
+}
+.Nikolay ul{
+    padding: revert;
+}
+.Anton li{
+    display: revert;
+}
+.Anton ul{
+    padding: revert;
+}
+/*Надо зарефакторить*/
+.Anton {
+    align-content: start;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 100px;
+    padding-bottom: 400px;
+    unicode-bidi: isolate;
+    margin:10px;
+}
+.logo{
+    margin-right: 69px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: white; /*Для того, чтобы ссылки выше были белые*/
+}
+.menu li{
+    margin-right: 40px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.p{
+    margin: 0;
+}
+.tytle {
+    font-size: 40px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.navigation{
+    display: flex;
+    align-items: center ;
+}
+.Ilya, .Anton, .Nikolay{
+    display: flex;
+    justify-content: start;
+}
+.Ilya p, .Anton p, .Nikolay p{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+.desk-left, .desk-right{
+    width: 567px;
+}
+.Ilya{
+    margin-bottom: 30px;
+}
+.Anton{
+    margin-bottom: 30px;
+}
+.info_2{
+    margin-right: 30px;
+}
+.image{
+    margin-right: 20px;
+}
+.mail{
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    background-image: url("cave2.png");
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 58px;
+    color:#fff;
+    text-align: center;
+    
+}
+h3{
+    font-size: 25px;
+    color:#fff;
+    margin:0;
+}
+.header{
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 400px;
+    unicode-bidi: isolate;
+    margin:10px;
+}
+.logo{
+    margin-right: 69px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+.menu li{
+    margin-right: 40px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.p{
+    margin: 0;
+}
+.tytle {
+    font-size: 40px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.navigation{
+    display: flex;
+    align-items: center ;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.Ilya, .Anton, .Nikolay{
+    display: flex;
+    justify-content: space-between;
+}
+.Ilya p, .Anton p, .Nikolay p{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+    color: #fff;
+}
+.desk-left, .desk-right{
+    width: 567px;
+}
+.Ilya{
+    margin-bottom: 30px;
+}
+.Anton{
+    margin-bottom: 30px;
+}
+.info_2{
+    margin-right: 30px;
+}
+.image{
+    margin-right: 20px;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+}
+.footer-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 144px 0;
+    color: #fff;
+}
+.footer-text p{
+    margin-right: 65px;
+}
+.icons ul{
+    display: flex;
+    align-items: center;
+}
+.icons li{
+    margin-right: 10px;
+}
+.icons{
+    margin-left: auto;
+}
