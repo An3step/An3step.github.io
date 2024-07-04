@@ -41,7 +41,7 @@ ul,li{
     margin: 0 auto;
 }
 .header{
-    background: url('Cave_background.png') no-repeat center top / cover;
+    background: url('Images/Cave_background.png') no-repeat center top / cover;
     padding-top: 57px;
     color: #fff;
     padding-bottom: 322px;
